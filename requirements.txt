@@ -1,7 +1,7 @@
 fastapi
 uvicorn
-pymongo
 pydantic
-passlib[bcrypt]
-python-jose[cryptography]
 python-dotenv
+pymongo
+bcrypt
+pyjwt
