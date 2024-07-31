@@ -10,3 +10,6 @@ class UserLogin(BaseModel):
 
 class UserResponse(BaseModel):
     username: str
+
+    class Config:
+        orm_mode = True
